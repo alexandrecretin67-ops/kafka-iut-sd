@@ -12,7 +12,7 @@ producer = KafkaProducer(
      sasl_mechanism='SCRAM-SHA-256',
      security_protocol='SASL_PLAINTEXT',
      sasl_plain_username='user1',
-     sasl_plain_password='mmJtDlUI4c',
+     sasl_plain_password='OWxsexNFSZ',
      value_serializer=lambda v: json.dumps(v).encode('utf-8')
 )
 #producer = KafkaProducer(
